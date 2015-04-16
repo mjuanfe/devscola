@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FISH DANCE</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<!-- Aprovechar la posibilidad de separar los inputs de sus labels para acceder a elementos padre con css -->
+<input id="uno" type="radio" name="section" value="WhatsThis">
+<input id="dos" type="radio" name="section" value="AboutUs"> 
+<input id="tres" type="radio" name="section" value="Contact" checked> 
+
+<header>
+	<figure id="logo">
+
+			<img src="assets/ancla1.png" alt="Logo ancla">
+	</figure>
+	<nav class="menu">&nbsp
+		 <label for="uno">What´s this</label>&nbsp	
+		 <label for="dos">About us</label>&nbsp	
+		 <label for="tres">Contact</label>&nbsp	
+	</nav>
+</header>
+
+
+<section class="main-wrap">
+
+	<section class="col-1-3 content">
+		<article class="col-1-2">
+			<h1>Directly to your destination</h1><h6>or not... </h6>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea consequatur rerum eligendi id totam ex laboriosam laborum reiciendis, alias autem dolor amet voluptates nostrum optio, dolores tenetur necessitatibus. Mollitia, totam! <br> <br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, reiciendis, eligendi perspiciatis sint labore minus voluptates dignissimos velit esse voluptate veniam, ex accusantium amet! Ad sint nemo illo eius tempora.</p>
+			
+		</article>
+		<figure class=><img src="assets/vientos.png" alt="rosa vientos	" class="icolumna"></figure>
+	</section>
+	<section class="col-1-3 content">
+		<article class="col-1-2">
+			<h1>Choose which fits more to your needs</h1>
+			<h6>behaivour can change...</h6>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea consequatur rerum eligendi id totam ex laboriosam laborum reiciendis, alias autem dolor amet voluptates nostrum optio, dolores tenetur necessitatibus. Mollitia, totam! <br> <br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, reiciendis, eligendi perspiciatis sint labore minus voluptates dignissimos velit esse voluptate veniam, ex accusantium amet! Ad sint nemo illo eius tempora.</p>
+		</article>
+		<figure class=><img src="assets/fish1.png" alt="pescado" class="icolumna prop"></figure>
+
+	</section>
+	<section class="col-1-3 content">
+		<article class="col-2-3">
+			<h1>Let us all your info</h1>
+			<h6>will be spread...</h6>
+			<form action="/process" method="post" class="">
+				<input type="text" name="username" placeholder="Name">
+				<input type="text" name="surname" placeholder="Surname"> 
+				<input type="email" name="mail" placeholder="Email"><br><br> 	
+				<input type="tel" name="telephone" placeholder="Telephone">
+				<input type="url" name="web" placeholder="Your website">
+				<input type="radio" name="sex" value="Male">Male
+				<input type="radio" name="sex" value="Female">Female
+				<input type="radio" name="sex" value="Idk">idk <br><br>
+				<label> Date of birth &nbsp&nbsp <input type="date" name="birthday" placeholder="birthday"></label>
+				<label>
+				 &nbsp&nbsp &nbsp&nbsp Country	
+				<select name="country" id="countryid">
+					  <option value="Spain" selected>Spain</option>
+					  <option value="Portugal">Portugal</option>
+					  <option value="France">France</option>
+					  <option value="England">England</option>
+					  <option value="Italy">Italy</option>
+					  <option value="Germany">Germany</option>
+					  <option value="Poland">Poland</option>
+				</select><br><br>
+				</label>
+
+				<textarea name="comment" id="comments" cols="69" rows="5" placeholder="Personal comments,if you have something to say or any confession... probably we will not pay too much attention"></textarea>
+				
+			</form>
+		</article>
+		<figure class=""><img src="assets/botella.png" alt="botella mensaje" class="icolumna2 prop	"></figure>
+	</section>
+
+</section>
+
+</body>
+</html>
+
